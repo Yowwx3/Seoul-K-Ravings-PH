@@ -1,0 +1,426 @@
+.mediaViewInfo {
+	--web-view-name: LOG IN;
+	--web-view-id: LOG_IN;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: LOG_IN;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#LOG_IN {
+	position: absolute;
+	width: 1920px;
+	height: 1079px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: LOG IN;
+	--web-view-id: LOG_IN;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Path_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 701px;
+	height: 828px;
+	left: 610px;
+	top: 178px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#SIGN_UP_already_a_member_Log_I {
+	left: 677px;
+	top: 299px;
+	position: absolute;
+	overflow: visible;
+	width: 521px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: LOG_IN___1.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(40,41,50,1);
+}
+#Rectangle_36 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_36 {
+	position: absolute;
+	overflow: visible;
+	width: 543px;
+	height: 81px;
+	left: 673px;
+	top: 511px;
+}
+#Rectangle_37 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_37 {
+	position: absolute;
+	overflow: visible;
+	width: 543px;
+	height: 81px;
+	left: 673px;
+	top: 637px;
+}
+#Line_4 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 229.5px;
+	height: 5px;
+	left: 683.5px;
+	top: 462.042px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_5 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	width: 229.5px;
+	height: 5px;
+	left: 976.277px;
+	top: 462.042px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#or {
+	left: 930px;
+	top: 438px;
+	position: absolute;
+	overflow: visible;
+	width: 31px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(40,41,50,1);
+}
+#Icon_awesome-facebook {
+	fill: rgba(33,67,180,1);
+}
+.Icon_awesome-facebook {
+	overflow: visible;
+	position: absolute;
+	width: 76.667px;
+	height: 63.055px;
+	left: 694.696px;
+	top: 520.346px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Sign_up_with_Gmail {
+	left: 829px;
+	top: 658px;
+	position: absolute;
+	overflow: visible;
+	width: 283px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(40,41,50,1);
+}
+#Icon_awesome-google-plus-squar {
+	fill: rgba(235,45,45,1);
+}
+.Icon_awesome-google-plus-squar {
+	overflow: visible;
+	position: absolute;
+	width: 58.974px;
+	height: 59.822px;
+	left: 703.543px;
+	top: 646.802px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Sign_up_with_Facebook {
+	left: 810px;
+	top: 535px;
+	position: absolute;
+	overflow: visible;
+	width: 333px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(40,41,50,1);
+}
+#Rectangle_38 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_38 {
+	position: absolute;
+	overflow: visible;
+	width: 543px;
+	height: 81px;
+	left: 673px;
+	top: 763px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Create_Acc.html;
+	cursor: pointer;
+}
+#Create_Account {
+	left: 857px;
+	top: 786px;
+	position: absolute;
+	overflow: visible;
+	width: 227px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(40,41,50,1);
+}
+#Icon_material-account-circle {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-account-circle {
+	overflow: visible;
+	position: absolute;
+	width: 63.637px;
+	height: 58px;
+	left: 703.543px;
+	top: 774.525px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_24 {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_24 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 117px;
+	left: 0px;
+	top: 0px;
+}
+#SEOUL_K-RAVINGS_PH {
+	left: 35px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 664px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 70px;
+	color: rgba(255,255,255,1);
+}
+#Home {
+	left: 1152px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#Product {
+	left: 1323px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: PRODUCT.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#About_Us {
+	left: 1532px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 173px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: ABOUT_US.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1295.5px;
+	top: 40px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1504.5px;
+	top: 40px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Log_In {
+	left: 1759px;
+	top: 38px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#Line_3 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1731.5px;
+	top: 38px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Back {
+	left: 35px;
+	top: 158px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: N_A_MAIN_PAGE___1.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}

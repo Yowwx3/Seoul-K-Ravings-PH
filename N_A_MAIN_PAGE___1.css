@@ -1,0 +1,456 @@
+.mediaViewInfo {
+	--web-view-name: N/A MAIN PAGE – 1;
+	--web-view-id: NA_MAIN_PAGE__1;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: NA_MAIN_PAGE__1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#NA_MAIN_PAGE__1 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: N/A MAIN PAGE – 1;
+	--web-view-id: NA_MAIN_PAGE__1;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Image_1 {
+	opacity: 0.35;
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_24 {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_24 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 117px;
+	left: 0px;
+	top: 0px;
+}
+#Path_6 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_6 {
+	overflow: visible;
+	position: absolute;
+	width: 416.998px;
+	height: 61px;
+	left: 1309.251px;
+	top: 152px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-search {
+	fill: rgba(0,0,0,1);
+}
+.Icon_awesome-search {
+	overflow: visible;
+	position: absolute;
+	width: 49.167px;
+	height: 45.632px;
+	left: 1650.751px;
+	top: 159.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-shopping-cart {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Icon_awesome-shopping-cart {
+	overflow: visible;
+	position: absolute;
+	width: 61.585px;
+	height: 49.75px;
+	left: 1754.173px;
+	top: 157.941px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: PRODUCT___1.html;
+	cursor: pointer;
+}
+#Satisfy_your__K-Ravings {
+	left: 235px;
+	top: 354px;
+	position: absolute;
+	overflow: visible;
+	width: 795px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Goudy Old Style;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 160px;
+	color: rgba(0,0,0,1);
+}
+#SEOUL_K-RAVINGS_PH {
+	left: 35px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 664px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 70px;
+	color: rgba(255,255,255,1);
+}
+#Icon_awesome-facebook {
+	fill: rgba(0,0,0,1);
+}
+.Icon_awesome-facebook {
+	overflow: visible;
+	position: absolute;
+	width: 52.037px;
+	height: 41.552px;
+	left: 46.689px;
+	top: 1000.745px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#seoulkravingsph_ {
+	left: 109.992px;
+	top: 1001px;
+	position: absolute;
+	overflow: hidden;
+	width: 251px;
+	height: 36px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Icon_awesome-instagram {
+	fill: rgba(0,0,0,1);
+}
+.Icon_awesome-instagram {
+	overflow: visible;
+	position: absolute;
+	width: 46.785px;
+	height: 38.297px;
+	left: 371.26px;
+	top: 1002.852px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#seoulkravingsph__ {
+	left: 429.311px;
+	top: 1001px;
+	position: absolute;
+	overflow: hidden;
+	width: 251px;
+	height: 36px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Home {
+	left: 1152px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#Product {
+	left: 1323px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: PRODUCT.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#About_Us {
+	left: 1532px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 173px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: ABOUT_US.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1295.5px;
+	top: 40px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1504.5px;
+	top: 40px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Log_In {
+	left: 1759px;
+	top: 38px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: LOG_IN.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#Line_3 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1731.5px;
+	top: 38px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_3 {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 323px;
+	height: 316px;
+	left: 1195px;
+	top: 237px;
+}
+#Rectangle_4 {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 323px;
+	height: 316px;
+	left: 1171px;
+	top: 601px;
+}
+#Rectangle_5 {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_5 {
+	position: absolute;
+	overflow: visible;
+	width: 323px;
+	height: 316px;
+	left: 1543px;
+	top: 358px;
+}
+#Image_2 {
+	position: absolute;
+	width: 282px;
+	height: 282px;
+	left: 1191px;
+	top: 618px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: JAJANGMYEON_INFO.html;
+	cursor: pointer;
+}
+#Image_3 {
+	position: absolute;
+	width: 279px;
+	height: 279px;
+	left: 1215px;
+	top: 257px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: JIN_RAMEN_INFO.html;
+	cursor: pointer;
+}
+#Mask_Group_1 {
+	position: absolute;
+	width: 279px;
+	height: 282px;
+	left: 1565px;
+	top: 375px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: SOJU_INFO.html;
+	cursor: pointer;
+}
+#Rectangle_15 {
+	fill: rgba(4,0,1,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 323px;
+	height: 316px;
+	left: 1543px;
+	top: 722px;
+}
+#Mask_Group_5 {
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	left: 1565px;
+	top: 738px;
+	overflow: visible;
+}
+#Annyeong_Chingus_ {
+	left: 47px;
+	top: 257px;
+	position: absolute;
+	overflow: visible;
+	width: 520px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Goudy Old Style;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(0,0,0,1);
+}
+#Search_Bar {
+	left: 1399px;
+	top: 158px;
+	position: absolute;
+	overflow: visible;
+	width: 198px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}

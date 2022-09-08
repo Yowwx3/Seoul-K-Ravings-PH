@@ -1,0 +1,436 @@
+.mediaViewInfo {
+	--web-view-name: JAJANGMYEON INFO;
+	--web-view-id: JAJANGMYEON_INFO;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: JAJANGMYEON_INFO;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#JAJANGMYEON_INFO {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: JAJANGMYEON INFO;
+	--web-view-id: JAJANGMYEON_INFO;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Path_9 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_9 {
+	overflow: visible;
+	position: absolute;
+	width: 845px;
+	height: 386px;
+	left: 204px;
+	top: 181px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Jajangmyeon_is_a_Korean_dish_t {
+	left: 230px;
+	top: 247px;
+	position: absolute;
+	overflow: visible;
+	width: 793px;
+	height: 254px;
+	text-align: center;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#Reviews__ {
+	left: 247.381px;
+	top: 631px;
+	position: absolute;
+	overflow: visible;
+	width: 143px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#Image_2 {
+	position: absolute;
+	width: 772px;
+	height: 772px;
+	left: 1115px;
+	top: 181px;
+	overflow: visible;
+}
+#Rectangle_46 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_46 {
+	position: absolute;
+	overflow: visible;
+	width: 393px;
+	height: 119px;
+	left: 258px;
+	top: 706px;
+}
+#Rectangle_47 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_47 {
+	position: absolute;
+	overflow: visible;
+	width: 352px;
+	height: 119px;
+	left: 670px;
+	top: 706px;
+}
+#Rectangle_48 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_48 {
+	position: absolute;
+	overflow: visible;
+	width: 388px;
+	height: 119px;
+	left: 440px;
+	top: 850px;
+}
+#Icon_material-account-circle {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-account-circle {
+	overflow: visible;
+	position: absolute;
+	width: 64.955px;
+	height: 63.447px;
+	left: 265.045px;
+	top: 734px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#K-Ravings_Satisfied {
+	left: 340px;
+	top: 743px;
+	position: absolute;
+	overflow: visible;
+	width: 299px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#Icon_material-account-circle_ {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-account-circle_ {
+	overflow: visible;
+	position: absolute;
+	width: 64.955px;
+	height: 63.447px;
+	left: 677.55px;
+	top: 734px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Delicious_ {
+	left: 795px;
+	top: 743px;
+	position: absolute;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#Icon_material-account-circle_ba {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-account-circle_ba {
+	overflow: visible;
+	position: absolute;
+	width: 64.955px;
+	height: 63.447px;
+	left: 454.55px;
+	top: 877.776px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Will_order_it_again {
+	left: 532px;
+	top: 887px;
+	position: absolute;
+	overflow: visible;
+	width: 278px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#Icon_ionic-ios-add-circle-outl {
+	position: absolute;
+	width: 46.576px;
+	height: 46.349px;
+	left: 871px;
+	top: 631px;
+	overflow: visible;
+}
+#Path_5 {
+	fill: rgba(0,0,0,1);
+}
+.Path_5 {
+	overflow: visible;
+	position: absolute;
+	width: 32.303px;
+	height: 32.076px;
+	left: 7.137px;
+	top: 7.137px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_6 {
+	fill: rgba(0,0,0,1);
+}
+.Path_6 {
+	overflow: visible;
+	position: absolute;
+	width: 46.576px;
+	height: 46.349px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Add_Review__ {
+	left: 665px;
+	top: 631px;
+	position: absolute;
+	overflow: visible;
+	width: 201px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#Rectangle_24 {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_24 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 117px;
+	left: 0px;
+	top: 0px;
+}
+#SEOUL_K-RAVINGS_PH {
+	left: 35px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 664px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 70px;
+	color: rgba(255,255,255,1);
+}
+#Home {
+	left: 1152px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#Product {
+	left: 1323px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: PRODUCT.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#About_Us {
+	left: 1532px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 173px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: ABOUT_US.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1295.5px;
+	top: 40px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1504.5px;
+	top: 40px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Cust {
+	left: 1759px;
+	top: 38px;
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#Line_3 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1731.5px;
+	top: 38px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Back {
+	left: 35px;
+	top: 158px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: PRODUCT.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}

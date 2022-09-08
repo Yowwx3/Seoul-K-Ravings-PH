@@ -1,0 +1,439 @@
+.mediaViewInfo {
+	--web-view-name: SOJU INFO;
+	--web-view-id: SOJU_INFO;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: SOJU_INFO;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#SOJU_INFO {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: SOJU INFO;
+	--web-view-id: SOJU_INFO;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_17 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_17 {
+	position: absolute;
+	overflow: visible;
+	width: 845px;
+	height: 473px;
+	left: 204px;
+	top: 181px;
+}
+#Group_1 {
+	position: absolute;
+	width: 620px;
+	height: 845px;
+	left: 1205px;
+	top: 181px;
+	overflow: visible;
+}
+#Image_5 {
+	position: absolute;
+	width: 620px;
+	height: 845px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Soju_is_a_distilled_spirit_fro {
+	left: 230px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 793px;
+	height: 389px;
+	text-align: center;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#Reviews__ {
+	left: 230px;
+	top: 705px;
+	position: absolute;
+	overflow: visible;
+	width: 143px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#Rectangle_46 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_46 {
+	position: absolute;
+	overflow: visible;
+	width: 357px;
+	height: 119px;
+	left: 283px;
+	top: 773px;
+}
+#Rectangle_47 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_47 {
+	position: absolute;
+	overflow: visible;
+	width: 317px;
+	height: 119px;
+	left: 687px;
+	top: 773px;
+}
+#Rectangle_48 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_48 {
+	position: absolute;
+	overflow: visible;
+	width: 388px;
+	height: 119px;
+	left: 457px;
+	top: 917px;
+}
+#Icon_material-account-circle {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-account-circle {
+	overflow: visible;
+	position: absolute;
+	width: 64.955px;
+	height: 63.447px;
+	left: 288.55px;
+	top: 801px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#It_tastes_good_ugh {
+	left: 358px;
+	top: 810px;
+	position: absolute;
+	overflow: visible;
+	width: 259px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#Icon_material-account-circle_ {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-account-circle_ {
+	overflow: visible;
+	position: absolute;
+	width: 64.955px;
+	height: 63.447px;
+	left: 694.55px;
+	top: 801px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Ang_sarap_ {
+	left: 773px;
+	top: 810px;
+	position: absolute;
+	overflow: visible;
+	width: 168px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#Icon_material-account-circle_ba {
+	fill: rgba(0,0,0,1);
+}
+.Icon_material-account-circle_ba {
+	overflow: visible;
+	position: absolute;
+	width: 64.955px;
+	height: 63.447px;
+	left: 471.55px;
+	top: 944.776px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Nakakalasing_siya {
+	left: 544px;
+	top: 954px;
+	position: absolute;
+	overflow: visible;
+	width: 279px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#Icon_ionic-ios-add-circle-outl {
+	position: absolute;
+	width: 46.576px;
+	height: 46.349px;
+	left: 936.212px;
+	top: 705px;
+	overflow: visible;
+}
+#Path_5 {
+	fill: rgba(0,0,0,1);
+}
+.Path_5 {
+	overflow: visible;
+	position: absolute;
+	width: 32.303px;
+	height: 32.076px;
+	left: 7.137px;
+	top: 7.137px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_6 {
+	fill: rgba(0,0,0,1);
+}
+.Path_6 {
+	overflow: visible;
+	position: absolute;
+	width: 46.576px;
+	height: 46.349px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Add_Review__ {
+	left: 730.212px;
+	top: 705px;
+	position: absolute;
+	overflow: visible;
+	width: 201px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#Rectangle_24 {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_24 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 117px;
+	left: 0px;
+	top: 0px;
+}
+#SEOUL_K-RAVINGS_PH {
+	left: 35px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 664px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 70px;
+	color: rgba(255,255,255,1);
+}
+#Home {
+	left: 1152px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#Product {
+	left: 1323px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: PRODUCT.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#About_Us {
+	left: 1532px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 173px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: ABOUT_US.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1295.5px;
+	top: 40px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1504.5px;
+	top: 40px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Cust {
+	left: 1759px;
+	top: 38px;
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#Line_3 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1731.5px;
+	top: 38px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Back {
+	left: 35px;
+	top: 158px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
