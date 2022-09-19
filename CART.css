@@ -1,11 +1,11 @@
 .mediaViewInfo {
-	--web-view-name: PRODUCT – 1;
-	--web-view-id: PRODUCT__1;
+	--web-view-name: CART;
+	--web-view-id: CART;
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
 }
 :root {
-	--web-view-ids: PRODUCT__1;
+	--web-view-ids: CART;
 }
 * {
 	margin: 0;
@@ -13,14 +13,14 @@
 	box-sizing: border-box;
 	border: none;
 }
-#PRODUCT__1 {
+#CART {
 	position: absolute;
 	width: 1920px;
 	height: 1115px;
 	background-color: rgba(255,255,255,1);
 	overflow: hidden;
-	--web-view-name: PRODUCT – 1;
-	--web-view-id: PRODUCT__1;
+	--web-view-name: CART;
+	--web-view-id: CART;
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
 }
@@ -120,7 +120,7 @@
 	top: 296px;
 }
 #Rectangle_24 {
-	fill: rgba(0,0,0,1);
+	fill: rgba(255,174,188,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
@@ -148,7 +148,7 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 70px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Home {
 	left: 1152px;
@@ -166,7 +166,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Product {
 	left: 1323px;
@@ -184,7 +184,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #About_Us {
 	left: 1532px;
@@ -202,11 +202,11 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Line_1 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -224,7 +224,7 @@
 }
 #Line_2 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -247,16 +247,20 @@
 	overflow: visible;
 	width: 127px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: LOG_IN.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Rockwell;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Line_3 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -332,7 +336,7 @@
 	font-size: 40px;
 	color: rgba(40,41,50,1);
 }
-#Product_ {
+#Product_bc {
 	left: 176px;
 	top: 305px;
 	position: absolute;
@@ -485,7 +489,7 @@
 	top: 425px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#n__bk {
+#n__bn {
 	left: 1184px;
 	top: 419px;
 	position: absolute;
@@ -530,21 +534,7 @@
 	left: 146px;
 	top: 520px;
 }
-#SOJU_bn {
-	left: 364px;
-	top: 569px;
-	position: absolute;
-	overflow: visible;
-	width: 99px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Rockwell;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 40px;
-	color: rgba(40,41,50,1);
-}
-#n__bo {
+#n__bq {
 	left: 799px;
 	top: 568px;
 	position: absolute;
@@ -611,10 +601,10 @@
 	top: 569px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_ionic-ios-add_bs {
+#Icon_ionic-ios-add_bu {
 	fill: rgba(0,0,0,1);
 }
-.Icon_ionic-ios-add_bs {
+.Icon_ionic-ios-add_bu {
 	overflow: visible;
 	position: absolute;
 	width: 18.07px;
@@ -623,10 +613,10 @@
 	top: 585.465px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-minus_bt {
+#Icon_awesome-minus_bv {
 	fill: rgba(0,0,0,1);
 }
-.Icon_awesome-minus_bt {
+.Icon_awesome-minus_bv {
 	overflow: visible;
 	position: absolute;
 	width: 27.716px;
@@ -635,10 +625,10 @@
 	top: 591.683px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-trash-alt_bu {
+#Icon_awesome-trash-alt_bw {
 	fill: rgba(0,0,0,1);
 }
-.Icon_awesome-trash-alt_bu {
+.Icon_awesome-trash-alt_bw {
 	overflow: visible;
 	position: absolute;
 	width: 31.5px;
@@ -647,7 +637,7 @@
 	top: 574px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#n__bv {
+#n__bx {
 	left: 1184px;
 	top: 568px;
 	position: absolute;
@@ -692,12 +682,12 @@
 	left: 146px;
 	top: 669px;
 }
-#SOJU_by {
+#NORI {
 	left: 364px;
-	top: 718px;
+	top: 720px;
 	position: absolute;
 	overflow: visible;
-	width: 99px;
+	width: 113px;
 	white-space: nowrap;
 	text-align: center;
 	font-family: Rockwell;
@@ -706,7 +696,7 @@
 	font-size: 40px;
 	color: rgba(40,41,50,1);
 }
-#n__bz {
+#n__b {
 	left: 799px;
 	top: 717px;
 	position: absolute;
@@ -809,7 +799,7 @@
 	top: 723px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#n__b {
+#n__ca {
 	left: 1184px;
 	top: 717px;
 	position: absolute;
@@ -854,12 +844,12 @@
 	left: 146px;
 	top: 818px;
 }
-#SOJU_b {
+#PEPERO {
 	left: 364px;
-	top: 867px;
+	top: 869px;
 	position: absolute;
 	overflow: visible;
-	width: 99px;
+	width: 171px;
 	white-space: nowrap;
 	text-align: center;
 	font-family: Rockwell;
@@ -868,7 +858,7 @@
 	font-size: 40px;
 	color: rgba(40,41,50,1);
 }
-#n__ca {
+#n__cc {
 	left: 799px;
 	top: 866px;
 	position: absolute;
@@ -935,10 +925,10 @@
 	top: 867px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_ionic-ios-add_ce {
+#Icon_ionic-ios-add_cg {
 	fill: rgba(0,0,0,1);
 }
-.Icon_ionic-ios-add_ce {
+.Icon_ionic-ios-add_cg {
 	overflow: visible;
 	position: absolute;
 	width: 18.07px;
@@ -947,10 +937,10 @@
 	top: 883.465px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-minus_cf {
+#Icon_awesome-minus_ch {
 	fill: rgba(0,0,0,1);
 }
-.Icon_awesome-minus_cf {
+.Icon_awesome-minus_ch {
 	overflow: visible;
 	position: absolute;
 	width: 27.716px;
@@ -959,10 +949,10 @@
 	top: 889.683px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-trash-alt_cg {
+#Icon_awesome-trash-alt_ci {
 	fill: rgba(0,0,0,1);
 }
-.Icon_awesome-trash-alt_cg {
+.Icon_awesome-trash-alt_ci {
 	overflow: visible;
 	position: absolute;
 	width: 31.5px;
@@ -971,7 +961,7 @@
 	top: 872px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#n__ch {
+#n__cj {
 	left: 1184px;
 	top: 866px;
 	position: absolute;
@@ -985,7 +975,7 @@
 	font-size: 40px;
 	color: rgba(40,41,50,1);
 }
-#n_0_ci {
+#n_0_ck {
 	left: 1585px;
 	top: 869px;
 	position: absolute;
@@ -1066,5 +1056,19 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 50px;
+	color: rgba(40,41,50,1);
+}
+#CORNDOG {
+	left: 364px;
+	top: 569px;
+	position: absolute;
+	overflow: visible;
+	width: 227px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
 	color: rgba(40,41,50,1);
 }

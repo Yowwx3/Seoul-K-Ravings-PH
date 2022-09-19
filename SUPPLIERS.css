@@ -1,0 +1,763 @@
+.mediaViewInfo {
+	--web-view-name: SUPPLIERS;
+	--web-view-id: SUPPLIERS;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: SUPPLIERS;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#SUPPLIERS {
+	position: absolute;
+	width: 1920px;
+	height: 969px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: SUPPLIERS;
+	--web-view-id: SUPPLIERS;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_24 {
+	fill: rgba(255,174,188,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_24 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 117px;
+	left: 0px;
+	top: 0px;
+}
+#SEOUL_K-RAVINGS_PH {
+	left: 35px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 664px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poor Richard;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 70px;
+	color: rgba(0,0,0,1);
+}
+#Home {
+	left: 1152px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Product {
+	left: 1323px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: PRODUCT.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#About_Us {
+	left: 1532px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 173px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: ABOUT_US.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1295.5px;
+	top: 40px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1504.5px;
+	top: 40px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Log_In {
+	left: 1759px;
+	top: 38px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: LOG_IN.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Line_3 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1731.5px;
+	top: 38px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Back {
+	left: 35px;
+	top: 158px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: PRODUCT.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#NAME {
+	left: 590.507px;
+	top: 341.485px;
+	position: absolute;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#CONTACT_NO {
+	left: 748.169px;
+	top: 341.485px;
+	position: absolute;
+	overflow: visible;
+	width: 226px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Line_19 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_19 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 41.485px;
+	left: 717.338px;
+	top: 335px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_16 {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(1,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_16 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 41.485px;
+	left: 1004px;
+	top: 335px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ORDERS {
+	left: 1200.493px;
+	top: 341.485px;
+	position: absolute;
+	overflow: visible;
+	width: 130px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Line_21 {
+	fill: transparent;
+	stroke: rgba(1,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_21 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 41.485px;
+	left: 1169.662px;
+	top: 338.243px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#EMAIL {
+	left: 1034.831px;
+	top: 341.485px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#SUPPLIERS_bb {
+	left: 821px;
+	top: 182px;
+	position: absolute;
+	overflow: visible;
+	width: 279px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(40,41,50,1);
+}
+#Path_11 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_11 {
+	overflow: visible;
+	position: absolute;
+	width: 1196.524px;
+	height: 376.361px;
+	left: 373.737px;
+	top: 423.422px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_17 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_17 {
+	overflow: visible;
+	position: absolute;
+	width: 1163.478px;
+	height: 1px;
+	left: 390.261px;
+	top: 496.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#View_Orders {
+	left: 1376.17px;
+	top: 452.5px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: SUPPLIERS___ORDER.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(67,118,206,1);
+}
+#angelosy123gmailcom {
+	left: 992.331px;
+	top: 452.5px;
+	position: absolute;
+	overflow: visible;
+	width: 312px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Angelo_Sy {
+	left: 410px;
+	top: 447.5px;
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Line_31 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_31 {
+	overflow: visible;
+	position: absolute;
+	width: 1163.478px;
+	height: 1px;
+	left: 390.261px;
+	top: 496.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#n_9159863254 {
+	left: 745px;
+	top: 452.5px;
+	position: absolute;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Line_33 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_33 {
+	overflow: visible;
+	position: absolute;
+	width: 1163.478px;
+	height: 1px;
+	left: 390.26px;
+	top: 560.243px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Angelo_Villar {
+	left: 410px;
+	top: 511.243px;
+	position: absolute;
+	overflow: visible;
+	width: 196px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Line_35 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_35 {
+	overflow: visible;
+	position: absolute;
+	width: 1163.478px;
+	height: 1px;
+	left: 390.26px;
+	top: 560.243px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_37 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_37 {
+	overflow: visible;
+	position: absolute;
+	width: 1163.478px;
+	height: 1px;
+	left: 390.26px;
+	top: 623.985px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Angelo_Musk {
+	left: 410px;
+	top: 574.985px;
+	position: absolute;
+	overflow: visible;
+	width: 197px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Line_39 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_39 {
+	overflow: visible;
+	position: absolute;
+	width: 1163.478px;
+	height: 1px;
+	left: 391.43px;
+	top: 687.728px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Angelo_Pacquiao {
+	left: 411.17px;
+	top: 638.728px;
+	position: absolute;
+	overflow: visible;
+	width: 249px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Line_41 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_41 {
+	overflow: visible;
+	position: absolute;
+	width: 1163.478px;
+	height: 1px;
+	left: 391.43px;
+	top: 751.471px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Angelo_Sosa {
+	left: 411.17px;
+	top: 702.471px;
+	position: absolute;
+	overflow: visible;
+	width: 178px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#n_9159863254_bs {
+	left: 745px;
+	top: 579.985px;
+	position: absolute;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#n_9159863254_bt {
+	left: 745px;
+	top: 516.243px;
+	position: absolute;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#n_9159863254_bu {
+	left: 745px;
+	top: 701.728px;
+	position: absolute;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#n_9159863254_bv {
+	left: 745px;
+	top: 643.728px;
+	position: absolute;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#angelop123gmailcom {
+	left: 992.331px;
+	top: 643.728px;
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#angelov123gmailcom {
+	left: 992.331px;
+	top: 516.243px;
+	position: absolute;
+	overflow: visible;
+	width: 299px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#angelom123gmailcom {
+	left: 992.331px;
+	top: 579.985px;
+	position: absolute;
+	overflow: visible;
+	width: 310px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#angelos123gmailcom {
+	left: 992.331px;
+	top: 701.728px;
+	position: absolute;
+	overflow: visible;
+	width: 298px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#View_Orders_b {
+	left: 1376.17px;
+	top: 579.985px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(67,118,206,1);
+}
+#View_Orders_ca {
+	left: 1376.17px;
+	top: 516.243px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(67,118,206,1);
+}
+#View_Orders_cb {
+	left: 1376.17px;
+	top: 643.728px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(67,118,206,1);
+}
+#View_Orders_cc {
+	left: 1376.17px;
+	top: 707.471px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(67,118,206,1);
+}

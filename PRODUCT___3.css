@@ -120,7 +120,7 @@
 	top: 319px;
 }
 #Rectangle_24 {
-	fill: rgba(0,0,0,1);
+	fill: rgba(255,174,188,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
@@ -148,7 +148,7 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 70px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Home {
 	left: 1152px;
@@ -166,7 +166,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Product {
 	left: 1323px;
@@ -184,7 +184,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #About_Us {
 	left: 1532px;
@@ -193,16 +193,20 @@
 	overflow: visible;
 	width: 173px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: ABOUT_US.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Rockwell;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Line_1 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -220,7 +224,7 @@
 }
 #Line_2 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -243,16 +247,20 @@
 	overflow: visible;
 	width: 127px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: LOG_IN.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Rockwell;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Line_3 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -571,10 +579,10 @@
 	top: 592px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_ionic-ios-add_bp {
+#Icon_ionic-ios-add_bs {
 	fill: rgba(0,0,0,1);
 }
-.Icon_ionic-ios-add_bp {
+.Icon_ionic-ios-add_bs {
 	overflow: visible;
 	position: absolute;
 	width: 18.07px;
@@ -583,10 +591,10 @@
 	top: 608.465px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-minus_bq {
+#Icon_awesome-minus_bt {
 	fill: rgba(0,0,0,1);
 }
-.Icon_awesome-minus_bq {
+.Icon_awesome-minus_bt {
 	overflow: visible;
 	position: absolute;
 	width: 27.717px;
@@ -595,10 +603,10 @@
 	top: 614.683px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-trash-alt_br {
+#Icon_awesome-trash-alt_bu {
 	fill: rgba(0,0,0,1);
 }
-.Icon_awesome-trash-alt_br {
+.Icon_awesome-trash-alt_bu {
 	overflow: visible;
 	position: absolute;
 	width: 31.5px;
@@ -607,7 +615,7 @@
 	top: 597px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#n__bs {
+#n__bv {
 	left: 1184px;
 	top: 591px;
 	position: absolute;
@@ -719,10 +727,10 @@
 	top: 741px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_ionic-ios-add_bz {
+#Icon_ionic-ios-add_b {
 	fill: rgba(0,0,0,1);
 }
-.Icon_ionic-ios-add_bz {
+.Icon_ionic-ios-add_b {
 	overflow: visible;
 	position: absolute;
 	width: 18.07px;
@@ -868,10 +876,10 @@
 	top: 890px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_ionic-ios-add_b {
+#Icon_ionic-ios-add_cc {
 	fill: rgba(0,0,0,1);
 }
-.Icon_ionic-ios-add_b {
+.Icon_ionic-ios-add_cc {
 	overflow: visible;
 	position: absolute;
 	width: 18.07px;
@@ -880,10 +888,10 @@
 	top: 906.465px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-minus_ca {
+#Icon_awesome-minus_cd {
 	fill: rgba(0,0,0,1);
 }
-.Icon_awesome-minus_ca {
+.Icon_awesome-minus_cd {
 	overflow: visible;
 	position: absolute;
 	width: 27.717px;
@@ -892,10 +900,10 @@
 	top: 912.683px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-trash-alt_cb {
+#Icon_awesome-trash-alt_ce {
 	fill: rgba(0,0,0,1);
 }
-.Icon_awesome-trash-alt_cb {
+.Icon_awesome-trash-alt_ce {
 	overflow: visible;
 	position: absolute;
 	width: 31.5px;
@@ -904,7 +912,7 @@
 	top: 895px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#n_0_cc {
+#n_0_cf {
 	left: 1585px;
 	top: 892px;
 	position: absolute;
@@ -963,7 +971,7 @@
 	font-size: 40px;
 	color: rgba(40,41,50,1);
 }
-#n__cg {
+#n__cj {
 	left: 799px;
 	top: 445px;
 	position: absolute;
@@ -977,7 +985,7 @@
 	font-size: 40px;
 	color: rgba(40,41,50,1);
 }
-#n__ch {
+#n__ck {
 	left: 799px;
 	top: 597px;
 	position: absolute;
@@ -991,7 +999,7 @@
 	font-size: 40px;
 	color: rgba(40,41,50,1);
 }
-#n__ci {
+#n__cl {
 	left: 799px;
 	top: 746px;
 	position: absolute;
@@ -1005,7 +1013,7 @@
 	font-size: 40px;
 	color: rgba(40,41,50,1);
 }
-#n__cj {
+#n__cm {
 	left: 799px;
 	top: 892px;
 	position: absolute;
@@ -1019,7 +1027,7 @@
 	font-size: 40px;
 	color: rgba(40,41,50,1);
 }
-#n__ck {
+#n__cn {
 	left: 1184px;
 	top: 892px;
 	position: absolute;

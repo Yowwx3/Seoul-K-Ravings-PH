@@ -120,7 +120,7 @@
 	top: 296px;
 }
 #Rectangle_24 {
-	fill: rgba(0,0,0,1);
+	fill: rgba(255,174,188,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
@@ -148,7 +148,7 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 70px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Home {
 	left: 1152px;
@@ -166,7 +166,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Product {
 	left: 1323px;
@@ -184,7 +184,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #About_Us {
 	left: 1532px;
@@ -193,16 +193,20 @@
 	overflow: visible;
 	width: 173px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: ABOUT_US.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Rockwell;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Line_1 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -220,7 +224,7 @@
 }
 #Line_2 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -243,16 +247,20 @@
 	overflow: visible;
 	width: 127px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: LOG_IN.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Rockwell;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Line_3 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -328,7 +336,7 @@
 	font-size: 40px;
 	color: rgba(40,41,50,1);
 }
-#Product_ {
+#Product_bc {
 	left: 176px;
 	top: 305px;
 	position: absolute;
@@ -495,7 +503,7 @@
 	font-size: 40px;
 	color: rgba(40,41,50,1);
 }
-#n__bl {
+#n__bo {
 	left: 1596px;
 	top: 422px;
 	position: absolute;
@@ -607,10 +615,10 @@
 	top: 569px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_ionic-ios-add_bs {
+#Icon_ionic-ios-add_bv {
 	fill: rgba(0,0,0,1);
 }
-.Icon_ionic-ios-add_bs {
+.Icon_ionic-ios-add_bv {
 	overflow: visible;
 	position: absolute;
 	width: 18.07px;
@@ -619,10 +627,10 @@
 	top: 585.465px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-minus_bt {
+#Icon_awesome-minus_bw {
 	fill: rgba(0,0,0,1);
 }
-.Icon_awesome-minus_bt {
+.Icon_awesome-minus_bw {
 	overflow: visible;
 	position: absolute;
 	width: 27.717px;
@@ -631,10 +639,10 @@
 	top: 591.683px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-trash-alt_bu {
+#Icon_awesome-trash-alt_bx {
 	fill: rgba(0,0,0,1);
 }
-.Icon_awesome-trash-alt_bu {
+.Icon_awesome-trash-alt_bx {
 	overflow: visible;
 	position: absolute;
 	width: 31.5px;
@@ -643,7 +651,7 @@
 	top: 574px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#n__bv {
+#n__by {
 	left: 1184px;
 	top: 568px;
 	position: absolute;
@@ -657,7 +665,7 @@
 	font-size: 40px;
 	color: rgba(40,41,50,1);
 }
-#n__bw {
+#n__bz {
 	left: 1596px;
 	top: 571px;
 	position: absolute;
@@ -931,10 +939,10 @@
 	top: 867px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_ionic-ios-add_ce {
+#Icon_ionic-ios-add_ch {
 	fill: rgba(0,0,0,1);
 }
-.Icon_ionic-ios-add_ce {
+.Icon_ionic-ios-add_ch {
 	overflow: visible;
 	position: absolute;
 	width: 18.07px;
@@ -943,10 +951,10 @@
 	top: 883.465px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-minus_cf {
+#Icon_awesome-minus_ci {
 	fill: rgba(0,0,0,1);
 }
-.Icon_awesome-minus_cf {
+.Icon_awesome-minus_ci {
 	overflow: visible;
 	position: absolute;
 	width: 27.717px;
@@ -955,10 +963,10 @@
 	top: 889.683px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Icon_awesome-trash-alt_cg {
+#Icon_awesome-trash-alt_cj {
 	fill: rgba(0,0,0,1);
 }
-.Icon_awesome-trash-alt_cg {
+.Icon_awesome-trash-alt_cj {
 	overflow: visible;
 	position: absolute;
 	width: 31.5px;
@@ -967,7 +975,7 @@
 	top: 872px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#n__ch {
+#n__ck {
 	left: 1184px;
 	top: 866px;
 	position: absolute;
@@ -981,7 +989,7 @@
 	font-size: 40px;
 	color: rgba(40,41,50,1);
 }
-#n__ci {
+#n__cl {
 	left: 1596px;
 	top: 869px;
 	position: absolute;

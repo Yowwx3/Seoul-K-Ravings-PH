@@ -34,7 +34,7 @@
 	}
 
 }
-#ABOUT_US_r {
+#ABOUT_US_u {
 	left: 150px;
 	top: 172px;
 	position: absolute;
@@ -258,7 +258,7 @@
 	overflow: visible;
 }
 #Rectangle_24 {
-	fill: rgba(0,0,0,1);
+	fill: rgba(255,174,188,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
@@ -286,7 +286,7 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 70px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Home {
 	left: 1152px;
@@ -304,7 +304,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Product {
 	left: 1323px;
@@ -322,7 +322,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #About_Us {
 	left: 1532px;
@@ -336,11 +336,11 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Line_1 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(4,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -358,7 +358,7 @@
 }
 #Line_2 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -381,16 +381,20 @@
 	overflow: visible;
 	width: 127px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: LOG_IN.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Rockwell;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Line_3 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;

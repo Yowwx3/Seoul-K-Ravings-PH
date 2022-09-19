@@ -1,11 +1,11 @@
 .mediaViewInfo {
-	--web-view-name: N/A MAIN PAGE – 1;
-	--web-view-id: NA_MAIN_PAGE__1;
+	--web-view-name: index;
+	--web-view-id: index;
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
 }
 :root {
-	--web-view-ids: NA_MAIN_PAGE__1;
+	--web-view-ids: index;
 }
 * {
 	margin: 0;
@@ -13,14 +13,14 @@
 	box-sizing: border-box;
 	border: none;
 }
-#NA_MAIN_PAGE__1 {
+#index {
 	position: absolute;
 	width: 1920px;
 	height: 1080px;
 	background-color: rgba(255,255,255,1);
 	overflow: hidden;
-	--web-view-name: N/A MAIN PAGE – 1;
-	--web-view-id: NA_MAIN_PAGE__1;
+	--web-view-name: index;
+	--web-view-id: index;
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
 }
@@ -44,7 +44,7 @@
 	overflow: visible;
 }
 #Rectangle_24 {
-	fill: rgba(0,0,0,1);
+	fill: rgba(255,174,188,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
@@ -109,7 +109,7 @@
 	transform: matrix(1,0,0,1,0,0);
 	--web-animation: fadein 0.3s ease-out;
 	--web-action-type: page;
-	--web-action-target: PRODUCT___1.html;
+	--web-action-target: CART.html;
 	cursor: pointer;
 }
 #Satisfy_your__K-Ravings {
@@ -138,7 +138,7 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 70px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Icon_awesome-facebook {
 	fill: rgba(0,0,0,1);
@@ -204,7 +204,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Product {
 	left: 1323px;
@@ -222,7 +222,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #About_Us {
 	left: 1532px;
@@ -240,11 +240,11 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Line_1 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -262,7 +262,7 @@
 }
 #Line_2 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -294,11 +294,11 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Line_3 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;

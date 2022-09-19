@@ -349,7 +349,7 @@
 	overflow: visible;
 }
 #Rectangle_24 {
-	fill: rgba(0,0,0,1);
+	fill: rgba(255,174,188,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
@@ -377,7 +377,7 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 70px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Home {
 	left: 1152px;
@@ -395,7 +395,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Product {
 	left: 1323px;
@@ -409,7 +409,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #About_Us {
 	left: 1532px;
@@ -427,11 +427,11 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Line_1 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -449,7 +449,7 @@
 }
 #Line_2 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -472,16 +472,20 @@
 	overflow: visible;
 	width: 127px;
 	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: LOG_IN.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Rockwell;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Line_3 {
 	fill: transparent;
-	stroke: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,1);
 	stroke-width: 3px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
@@ -509,10 +513,10 @@
 .Rectangle_1 {
 	position: absolute;
 	overflow: visible;
-	width: 416.999px;
+	width: 363.5px;
 	height: 61px;
-	left: 1309.251px;
-	top: 152px;
+	left: 1422px;
+	top: 158px;
 }
 #Icon_awesome-search {
 	fill: rgba(0,0,0,1);
@@ -522,8 +526,8 @@
 	position: absolute;
 	width: 49.167px;
 	height: 45.632px;
-	left: 1650.751px;
-	top: 159.5px;
+	left: 1710.001px;
+	top: 165.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
 #Icon_awesome-shopping-cart {
@@ -540,17 +544,17 @@
 	position: absolute;
 	width: 61.585px;
 	height: 49.75px;
-	left: 1754.173px;
-	top: 157.941px;
+	left: 1813.423px;
+	top: 163.941px;
 	transform: matrix(1,0,0,1,0,0);
 	--web-animation: fadein 0.3s ease-out;
 	--web-action-type: page;
-	--web-action-target: PRODUCT___1.html;
+	--web-action-target: CART.html;
 	cursor: pointer;
 }
 #Search_Bar {
-	left: 1399px;
-	top: 158px;
+	left: 1458.25px;
+	top: 164px;
 	position: absolute;
 	overflow: visible;
 	width: 198px;
@@ -775,7 +779,7 @@
 	font-size: 20px;
 	color: rgba(255,255,255,1);
 }
-#n__b {
+#n__ca {
 	left: 738px;
 	top: 635px;
 	position: absolute;
@@ -789,22 +793,8 @@
 	font-size: 20px;
 	color: rgba(255,255,255,1);
 }
-#n__ca {
-	left: 1161px;
-	top: 635px;
-	position: absolute;
-	overflow: visible;
-	width: 23px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Rockwell;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	color: rgba(255,255,255,1);
-}
 #n__cb {
-	left: 1584px;
+	left: 1161px;
 	top: 635px;
 	position: absolute;
 	overflow: visible;
@@ -818,8 +808,8 @@
 	color: rgba(255,255,255,1);
 }
 #n__cc {
-	left: 315px;
-	top: 1070px;
+	left: 1584px;
+	top: 635px;
 	position: absolute;
 	overflow: visible;
 	width: 23px;
@@ -832,7 +822,7 @@
 	color: rgba(255,255,255,1);
 }
 #n__cd {
-	left: 739px;
+	left: 315px;
 	top: 1070px;
 	position: absolute;
 	overflow: visible;
@@ -846,7 +836,7 @@
 	color: rgba(255,255,255,1);
 }
 #n__ce {
-	left: 1161px;
+	left: 739px;
 	top: 1070px;
 	position: absolute;
 	overflow: visible;
@@ -860,7 +850,7 @@
 	color: rgba(255,255,255,1);
 }
 #n__cf {
-	left: 1584px;
+	left: 1161px;
 	top: 1070px;
 	position: absolute;
 	overflow: visible;
@@ -874,6 +864,20 @@
 	color: rgba(255,255,255,1);
 }
 #n__cg {
+	left: 1584px;
+	top: 1070px;
+	position: absolute;
+	overflow: visible;
+	width: 23px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#n__ch {
 	left: 315px;
 	top: 1504px;
 	position: absolute;
@@ -887,7 +891,7 @@
 	font-size: 20px;
 	color: rgba(255,255,255,1);
 }
-#n__ch {
+#n__ci {
 	left: 739px;
 	top: 1504px;
 	position: absolute;
@@ -901,7 +905,7 @@
 	font-size: 20px;
 	color: rgba(255,255,255,1);
 }
-#n__ci {
+#n__cj {
 	left: 1162px;
 	top: 1504px;
 	position: absolute;
@@ -915,7 +919,7 @@
 	font-size: 20px;
 	color: rgba(255,255,255,1);
 }
-#n__cj {
+#n__ck {
 	left: 1585px;
 	top: 1504px;
 	position: absolute;
@@ -946,7 +950,7 @@
 	left: 681px;
 	top: 665px;
 }
-#Add_to_Cart_cj {
+#Add_to_Cart_cm {
 	left: 696px;
 	top: 672px;
 	position: absolute;
@@ -977,7 +981,7 @@
 	left: 1104px;
 	top: 665px;
 }
-#Add_to_Cart_cl {
+#Add_to_Cart_co {
 	left: 1119px;
 	top: 672px;
 	position: absolute;
@@ -1008,7 +1012,7 @@
 	left: 1527px;
 	top: 667px;
 }
-#Add_to_Cart_cn {
+#Add_to_Cart_cq {
 	left: 1542px;
 	top: 674px;
 	position: absolute;
@@ -1039,7 +1043,7 @@
 	left: 257px;
 	top: 1100px;
 }
-#Add_to_Cart_cp {
+#Add_to_Cart_cs {
 	left: 272px;
 	top: 1107px;
 	position: absolute;
@@ -1070,7 +1074,7 @@
 	left: 681px;
 	top: 1100px;
 }
-#Add_to_Cart_cr {
+#Add_to_Cart_cu {
 	left: 696px;
 	top: 1107px;
 	position: absolute;
@@ -1101,7 +1105,7 @@
 	left: 1104px;
 	top: 1100px;
 }
-#Add_to_Cart_ct {
+#Add_to_Cart_cw {
 	left: 1119px;
 	top: 1107px;
 	position: absolute;
@@ -1132,7 +1136,7 @@
 	left: 1527px;
 	top: 1102px;
 }
-#Add_to_Cart_cv {
+#Add_to_Cart_cy {
 	left: 1542px;
 	top: 1109px;
 	position: absolute;
@@ -1163,7 +1167,7 @@
 	left: 257px;
 	top: 1545px;
 }
-#Add_to_Cart_cx {
+#Add_to_Cart_c {
 	left: 272px;
 	top: 1552px;
 	position: absolute;
@@ -1194,7 +1198,7 @@
 	left: 681px;
 	top: 1545px;
 }
-#Add_to_Cart_cz {
+#Add_to_Cart_da {
 	left: 696px;
 	top: 1552px;
 	position: absolute;
@@ -1225,7 +1229,7 @@
 	left: 1104px;
 	top: 1545px;
 }
-#Add_to_Cart_c {
+#Add_to_Cart_db {
 	left: 1119px;
 	top: 1552px;
 	position: absolute;
@@ -1256,7 +1260,7 @@
 	left: 1527px;
 	top: 1547px;
 }
-#Add_to_Cart_da {
+#Add_to_Cart_dc {
 	left: 1542px;
 	top: 1554px;
 	position: absolute;
@@ -1271,8 +1275,8 @@
 	color: rgba(3,0,0,1);
 }
 #INVENTORY_SYSTEM {
-	left: 151px;
-	top: 166px;
+	left: 31px;
+	top: 159px;
 	position: absolute;
 	overflow: visible;
 	width: 431px;
@@ -1302,13 +1306,13 @@
 	position: absolute;
 	width: 3px;
 	height: 49px;
-	left: 608px;
-	top: 165px;
+	left: 488px;
+	top: 158px;
 	transform: matrix(1,0,0,1,0,0);
 }
 #SALES_SYSTEM {
-	left: 635px;
-	top: 166px;
+	left: 515px;
+	top: 159px;
 	position: absolute;
 	overflow: visible;
 	width: 299px;
@@ -1316,6 +1320,78 @@
 	--web-animation: fadein 0.3s ease-out;
 	--web-action-type: page;
 	--web-action-target: PRODUCT___3.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#Line_15 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_15 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 840px;
+	top: 159px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ORDER_LIST {
+	left: 867px;
+	top: 161px;
+	position: absolute;
+	overflow: visible;
+	width: 253px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: ORDER_LIST.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(40,41,50,1);
+}
+#Line_42 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_42 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 49px;
+	left: 1146px;
+	top: 159px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#SUPPLIERS {
+	left: 1173px;
+	top: 161px;
+	position: absolute;
+	overflow: visible;
+	width: 223px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: SUPPLIERS.html;
 	cursor: pointer;
 	text-align: center;
 	font-family: Rockwell;
